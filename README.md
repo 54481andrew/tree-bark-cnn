@@ -4,7 +4,8 @@ This directory contains code and images to build, train, and evaluate a convolut
 
 The Jupyter notebook contains details on the dataset and a full walk-through of how the model is built and trained with data augmentation. The subdirectories in this repository are
 
-- **dataset200**: The image dataset. Each image is reduced in resolution to have a width of 200 pixels; the height is set so that the original height:width ratio is kept constant. Note that this will have to be uncompressed prior to running the Jupyter notebook. 
 - **logs**: Directory that stores the training history of each model in CSV format.
 - **model_weights**: Contains the weights for the trained models. Unfortunately, the sizes of the hdf5 files that result are quite large, so I omitted those.
+- **dataset200**: The image dataset. Each image is reduced in resolution to have a width of 200 pixels; the height is set so that the original height:width ratio is kept constant. Note that this will have to be uncompressed prior to running the Jupyter notebook. The image below shows image-examples of each tree class. 
 
+![alt text](Bark.jpg "Bark example images")
